@@ -1,0 +1,29 @@
+Firebase là gì?
+Firebase là một nền tảng phát triển ứng dụng di động và web do Google phát triển. Nó cung cấp một loạt các dịch vụ và công cụ để giúp các nhà phát triển xây dựng, phát triển và mở rộng ứng dụng. Firebase bao gồm các tính năng như cơ sở dữ liệu thời gian thực, xác thực người dùng, lưu trữ, thông báo đẩy, phân tích và nhiều hơn nữa.
+
+Ưu điểm của Firebase
+Dễ sử dụng:
+Giao diện trực quan và dễ dàng tích hợp vào các ứng dụng, giúp giảm thời gian phát triển.
+Cơ sở dữ liệu thời gian thực:
+Firebase Realtime Database cho phép đồng bộ dữ liệu giữa nhiều người dùng trong thời gian thực, rất hữu ích cho các ứng dụng chat và trò chơi.
+Xác thực người dùng:
+Cung cấp nhiều phương thức xác thực (email, Google, Facebook, v.v.), giúp đơn giản hóa quá trình quản lý đăng nhập.
+Lưu trữ tệp:
+Firebase Storage giúp lưu trữ và quản lý các tệp như hình ảnh, video và tài liệu dễ dàng.
+Thông báo đẩy:
+Firebase Cloud Messaging (FCM) cho phép gửi thông báo đến người dùng một cách nhanh chóng và hiệu quả.
+Quản lý phân tích:
+Firebase Analytics cung cấp thông tin chi tiết về cách người dùng tương tác với ứng dụng, giúp tối ưu hóa trải nghiệm người dùng.
+Miễn phí cho giai đoạn phát triển:
+Firebase cung cấp một gói miễn phí cho các dự án nhỏ, giúp các nhà phát triển thử nghiệm và phát triển mà không tốn chi phí ban đầu.
+Nhược điểm của Firebase
+Giới hạn về tính tùy chỉnh:
+Firebase có thể không linh hoạt cho các ứng dụng đòi hỏi cấu trúc dữ liệu phức tạp hoặc tùy chỉnh cao.
+Chi phí cao khi mở rộng:
+Khi ứng dụng phát triển và số lượng người dùng tăng, chi phí sử dụng Firebase có thể tăng lên nhanh chóng, đặc biệt là với các dịch vụ như lưu trữ và cơ sở dữ liệu.
+Khó khăn trong việc quản lý dữ liệu lớn:
+Firebase Realtime Database có thể trở nên phức tạp khi làm việc với các tập dữ liệu lớn, do cách lưu trữ dữ liệu theo cấu trúc cây.
+Phụ thuộc vào dịch vụ của Google:
+Sử dụng Firebase đồng nghĩa với việc phụ thuộc vào hạ tầng và dịch vụ của Google, điều này có thể gây ra rủi ro nếu có sự cố xảy ra.
+Hạn chế về truy vấn dữ liệu:
+Firebase không hỗ trợ các truy vấn phức tạp như các hệ quản trị cơ sở dữ liệu truyền thống, điều này có thể làm khó khăn cho việc phân tích dữ liệu.
