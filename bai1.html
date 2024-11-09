@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>lap1.2</h1>
+    <script>
+//1. Fetch API
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+//2. Promise
+const asyncOperation = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Operation successful!');
+  }, 2000);
+});
+
+asyncOperation
+  .then(result => console.log(result))
+  .catch(error => console.error(error));
+//3. Object Literal Enhancements
+const name = 'TNC Gaming';
+const store = {
+  name,
+  greet() {
+    console.log(`Welcome to ${this.name}!`);
+  }
+};
+
+store.greet(); // Output: Welcome to TNC Gaming!
+//4. Arrow Functions
+const numbers = [1, 2, 3, 4];
+const squares = numbers.map(num => num * num);
+console.log(squares); // Output: [1, 4, 9, 16]
+//5. Template Literals
+const user = 'Alice';
+const message = `Hello, ${user}!
+Welcome to our platform.`;
+console.log(message);
+//6. Destructuring Assignment
+const [a, b] = [1, 2];
+console.log(a, b); // Output: 1 2
+
+const { name, greet } = store;
+console.log(name); // Output: TNC Gaming
+greet(); // Output: Welcome to TNC Gaming!
+//7. Default Parameters
+function greetUser(name = 'Guest') {
+  console.log(`Hello, ${name}!`);
+}
+
+greetUser(); // Output: Hello, Guest!
+greetUser('Bob'); // Output: Hello, Bob!
+
+</script>
+</body>
+</html>
