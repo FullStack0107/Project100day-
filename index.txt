@@ -1,0 +1,4 @@
+Bài 1: Promise giải quyết sau 2 giây.
+Bài 2: Xử lý logic dựa trên tham số đầu vào, bắt lỗi nếu giá trị âm.
+Bài 3: Sử dụng .finally() để thực thi bất kể thành công hay thất bại.
+Bài 4: Chạy đồng thời nhiều Promise, sử dụng Promise.all để chờ tất cả hoặc xử lý lỗi nếu có bất kỳ Promise nào bị từ chối.

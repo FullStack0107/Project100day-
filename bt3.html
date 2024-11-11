@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function failedTask() {
+    return new Promise((_, reject) => {
+        setTimeout(() => {
+            reject("Tác vụ thất bại!");
+        }, 3000);
+    });
+}
+
+failedTask()
+    .catch((error) => console.error(error)) // Tác vụ thất bại!
+    .finally(() => console.log("Kết thúc quá trình!")); // Kết thúc quá trình!
+
+    </script>
+</body>
+</html>
